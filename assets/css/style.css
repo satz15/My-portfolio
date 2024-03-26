@@ -375,6 +375,15 @@ section .container {
   }
 }
 
+.skillss {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  width: 5rem;
+}
+
 .section-title h2 {
   font-size: 14px;
   font-weight: 500;
