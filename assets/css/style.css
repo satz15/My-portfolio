@@ -379,9 +379,16 @@ section .container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   height: 5rem;
   width: 5rem;
+  gap: 8rem;
+  margin-top: 1rem;
+}
+
+.img {
+  height: 6rem;
+  width: 8rem;
 }
 
 .section-title h2 {
@@ -1170,7 +1177,7 @@ section .container {
 /*--------------------------------------------------------------
 # Credits
 --------------------------------------------------------------*/
-.credits {
+/* .credits {
   position: fixed;
   right: 0;
   left: 0;
@@ -1197,4 +1204,4 @@ section .container {
 
 .credits a:hover {
   color: #fff;
-}
+} */
